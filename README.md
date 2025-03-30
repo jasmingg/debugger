@@ -1,0 +1,1 @@
+Welcome to our game! All you need to do to finish setting up after downloading ALL the files is to go get a free gemini API key to use for yourself. Paste that key in game.js (there will be a comment directing you where to paste) and you're all set!
