@@ -1,0 +1,172 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(yoster.ttf) format(truetype);
+}
+
+@keyframes h1 {
+    0% {top: -500px;}
+    100% {top: 0px;}
+}
+
+@keyframes h3 {
+    0% {top: -500px;}
+    100% {top: 0px;}
+}
+
+@keyframes icon1 {
+    0% {scale: 1; color: rgb(4, 58, 25);}
+    50% {scale: 1.3; color: rgb(4, 58, 25);}
+    100% {scale: 1; color: rgb(4, 58, 25);}
+}
+
+@keyframes icon2 {
+    0% {scale: 1; color: rgb(80, 54, 7); filter: grayscale(100%);}
+    50% {scale: 1.3; color: rgb(80, 54, 7); filter: grayscale(100%);}
+    100% {scale: 1; color: rgb(80, 54, 7); filter: grayscale(100%);}
+}
+
+@keyframes icon3 {
+    0% {scale: 1; color: rgb(80, 7, 7); filter: grayscale(100%);}
+    50% {scale: 1.3; color: rgb(80, 7, 7); filter: grayscale(100%);}
+    100% {scale: 1; color: rgb(80, 7, 7); filter: grayscale(100%);}
+}
+
+body {
+    background-image: url("pixel-background.jpg");
+    background-size: 100vw 100vh;
+    text-align: center;
+    font-family: pixelFont;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    animation-name: h1;
+    animation-duration: 2s;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    animation-name: h3;
+    animation-duration: 5s;
+}
+
+img {
+    scale: 0.5;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    position: relative;
+    text-align: justify;
+    bottom: 35px;
+    padding: 5px 12px;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.column2 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#monty {
+    position: relative;
+    text-align: justify;
+    width: 128px;
+    bottom: 100px;
+    background-color: none;
+    color: none;
+    border: none;
+    font-size: 20px;
+}
+
+#monty:hover {
+    animation-name: icon1;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#button1 {
+    left: 125px;
+    cursor: pointer;
+}
+
+#monty-img {
+    position: relative;
+    left: -5px;
+}
+
+#sakila {
+    position: relative;
+    text-align: justify;
+    font-size: 20px;
+    bottom: 100px;
+    width: 128px;
+}
+
+#sakila:hover {
+    animation-name: icon2;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#button2 {
+    left: 75px;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#sakila-img {
+    position: relative;
+}
+
+#mona {
+    position: relative;
+    text-align: justify;
+    font-size: 20px;
+    bottom: 100px;
+    width: 128px;
+}
+
+#mona:hover {
+    animation-name: icon3;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#button3 {
+    left: 75px;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#mona-img {
+    position: relative;
+}
+
+.disclaimer {
+    text-align: center;
+}

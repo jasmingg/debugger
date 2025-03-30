@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>Monty's Story</title>
+      <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+      <div id = "background"><img src = "scary-forest.svg"></div>
+      <div id = "line"><h1>How odd...</h1></div>
+      <div id = "objective"><p>Objective: Uncover the truth about the "bug"</p></div>
+      <canvas id = "gameCanvas"></canvas>
+      <div id = "player"></div>
+      <div id = "Spider"></div>
+      <div id = "gemini-response-box"></div>
+    
+      <div id="chatbox-container">
+        <div id="chatbox-exit-button">
+          X
+      </div>
+        <div id="chatbox-messages"></div>
+        <div style="display: flex;">
+            <input type="text" id="chatbox-input" placeholder="Type your message...">
+            <button id="chatbox-send-button">Send</button>
+        </div>
+    </div>
+
+    <div id="closeup-sprite">
+    </div>
+    <audio id="backgroundMusic" loop>
+      <source src="game-music.wav" type="audio/mpeg">
+      <source src="game-music.ogg" type="audio/ogg">
+      Your browser does not support the audio element.
+  </audio>
+
+      <script src="chatbot.js"></script>
+      <script src="game.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Debugger</title>
+        <link rel = "stylesheet" href = "about.css">
+    </head>
+
+    <body>
+        <h1>Welcome to "The Debugger"! Let's get started.</h1>
+        <h3>Choose the story you'd like to play.</h3>
+
+        <div class = "row">
+            <div class = "column" id = "monty">
+                <img class = "monty-img" id = "monty-img" src = "monty-default.svg" alt = "Monty the Python">
+                <a href = "game.html">
+                    <button id = "button1">Click here to play!</button>
+                </a>
+                <p id = "monty-text">Monty (Python, Easy)</p>
+            </div>
+
+            <div class = "column" id = "sakila">
+                <img class = "sakila-img" id = "sakila-img" src = "sakila-default.svg" alt = "Sakila the Dolphin">
+                <button id = "button2">Must complete "Monty" to unlock.</button>
+                <p id = "sakila-text">Sakila (MySQL, Medium) (COMING SOON)</p>
+            </div>
+
+            <div class = "column" id = "mona">
+                <img class = "mona-img" id = "mona-img" src = "mona-default.svg" alt = "Mona the Octocat">
+                <button id = "button3">Must complete "Sakila" to unlock.</button>
+                <p id = "mona-text">Mona (GitHub, Hard) (COMING SOON)</p>
+            </div>
+        </div>
+
+        <div class = "disclaimer">
+            <h4>Created by Jasmin Giri and Xuno Haile.</h4>
+            <h4>Avatars drawn by Xuno Haile. Mascots and background belong to their respective owners.</h4>
+        </div>
+
+        <audio id="backgroundMusic" loop>
+            <source src="about-music.mp3" type="audio/mpeg">
+            <source src="about-music.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        
+    <script src="index.js"></script>
+    </body>
+</html>
